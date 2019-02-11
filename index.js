@@ -12,7 +12,8 @@ function fuzzyMatch(list, arg) {
 
 function matchName(list, arg) {
   return list.filter(function (name) {
-    return list.name === arg;
+    for (const name in list) {
+      return list.name === arg;
     };
   });
 }
