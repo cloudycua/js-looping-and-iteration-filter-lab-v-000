@@ -9,5 +9,3 @@ function fuzzyMatch(list, letters) {
     return driverName.slice(0, letters.length).toLowerCase() === letters.toLowerCase();
   });
 }
-
-function matchName(list,arg)
