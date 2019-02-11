@@ -5,7 +5,7 @@ function findMatching(list, arg) {
 }
 
 function fuzzyMatch(list, arg) {
-  return list.filter(function (driverName) {
-    return driverName.slice(0, arg.length).toLowerCase() === arg.toLowerCase();
+  return list.filter(function (item) {
+    return item.slice(0, arg.length).toLowerCase() === arg.toLowerCase();
   });
 }
