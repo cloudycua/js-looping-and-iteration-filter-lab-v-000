@@ -13,7 +13,7 @@ function fuzzyMatch(list, arg) {
 function matchName(list, arg) {
   return list.filter(function (name) {
     for (const name in list) {
-      return (list.name).toLowerCase() === arg.toLowerCase;
+      return list[name] === arg;
     };
   });
 }
