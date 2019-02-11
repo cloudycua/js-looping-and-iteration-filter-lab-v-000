@@ -14,5 +14,6 @@ function matchName(list, arg) {
   return list.filter(function (name) {
     for (const name in list ) {
       list.name.toLowerCase() === arg.toLowerCase();
+    )};
   });
 }
