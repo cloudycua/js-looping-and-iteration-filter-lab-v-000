@@ -4,8 +4,8 @@ function findMatching(list, arg) {
   });
 }
 
-function fuzzyMatch(list, letters) {
+function fuzzyMatch(list, arg) {
   return list.filter(function (driverName) {
-    return driverName.slice(0, letters.length).toLowerCase() === letters.toLowerCase();
+    return driverName.slice(0, arg.length).toLowerCase() === arg.toLowerCase();
   });
 }
