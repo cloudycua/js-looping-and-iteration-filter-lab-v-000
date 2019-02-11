@@ -9,3 +9,9 @@ function fuzzyMatch(list, arg) {
     return item.slice(0, arg.length).toLowerCase() === arg.toLowerCase();
   });
 }
+
+function matchName(list, arg) {
+  return list.filter(function (item) {
+    item.name === arg.name;
+  });
+}
