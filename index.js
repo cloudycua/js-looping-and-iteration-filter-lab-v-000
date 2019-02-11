@@ -1,6 +1,6 @@
 function findMatching(list, arg) {
-  return list.filter(function (driverName) {
-    return driverName.toLowerCase() === arg.toLowerCase();
+  return list.filter(function (item) {
+    return item.toLowerCase() === arg.toLowerCase();
   });
 }
 
