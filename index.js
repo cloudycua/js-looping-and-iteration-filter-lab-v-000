@@ -1,6 +1,6 @@
-function findMatching(list, arg) {
-  return list.filter(function (item) {
-    return item.toLowerCase() === arg.toLowerCase();
+function findMatching(list, name) {
+  return list.filter(function (driverName) {
+    return driverName.toLowerCase() === name.toLowerCase();
   });
 }
 
@@ -10,4 +10,4 @@ function fuzzyMatch(list, letters) {
   });
 }
 
-function matchName(list, )
+function matchName(list,arg)
