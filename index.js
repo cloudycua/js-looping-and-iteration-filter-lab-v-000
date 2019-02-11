@@ -12,7 +12,7 @@ function fuzzyMatch(list, arg) {
 
 function matchName(list, arg) {
   return list.filter(function (name) {
-    return (list.name === arg;);
+    return list.name === arg;
     };
   });
 }
